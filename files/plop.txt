@@ -1,0 +1,8 @@
+
+Interface: déclaration de méthodes. L'Interface n'est pas une class
+
+fileType dois être abstraite pour prévoir les comportement à chaque class pour la
+redéfinir dans les sous-classes
+Dans la super class on met toute les méthodes communes
+Class général fileType: methode ouverture, fermeture class abstraite fileType
+class fichiertxt, class fichiersvs...
