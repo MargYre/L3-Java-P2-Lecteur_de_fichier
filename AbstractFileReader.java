@@ -19,6 +19,11 @@ public abstract class AbstractFileReader implements FileReaderInterface {
             System.out.println("Erreur lors de la lecture du fichier : " + e.getMessage());
         }
     }
+
+    public boolean compareFiles(AbstractFileReader autreFichier) {
+        return this.contenu.toString().equals(autreFichier.contenu.toString());
+    }
+
     public abstract void displayFile();
     public abstract void displayFileInReverse();
     public abstract void displayFilePalindromic();
